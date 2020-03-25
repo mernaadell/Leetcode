@@ -24,6 +24,7 @@ public class RemoveDuplicates {
 	            set.add(nums[i]);   
 	        }
 		 nums=null;
+		 
 		 Integer[] array = new Integer[hashSet.size()];
 	      //Converting Set object to integer array
 	      int j = 0;
